@@ -2,3 +2,5 @@
 /api
 /.ipynb_checkpoints
 /tableau
+data/~*
+out/~*
