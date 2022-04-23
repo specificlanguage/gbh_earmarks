@@ -1,4 +1,4 @@
-##gbh_earmarks
+## gbh_earmarks
 
 This is a data science analysis workspace for the data me and my team used for 
 analyzing earmarks handed out by Massachusetts from the American Rescue Plan Act (ARPA).
@@ -21,4 +21,4 @@ All of the analysis/transformed data was in the `out` folder, which contains `cs
 - `cities`, which is literally just cleaned cities from the form "Acushnet city, _ county, Massachusetts" -> "Acushnet". This was mostly helpful for the very unwieldy census location tags.
 - `amendments_to_legis`, which mapped each one of the amendments of the bill to one of the earmarks in the original earmarks dataset, mostly helpful to see which legislator proposed each amendment.
 - `money_per_project`, which said how many of each category was invested in each town. Each town has two columns for each category: one for the amount of earmarks allocated to that town, and then the money.
-- `rent_fixed_towns` and `mortgage_fixed_towns` are the `acs_mortgage` and `acs_rent` files in `data`
+- `rent_fixed_towns` and `mortgage_fixed_towns` are the `acs_mortgage` and `acs_rent` files in `data`, but with towns fixed from `cities`.
